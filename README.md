@@ -22,80 +22,78 @@ The Product Management System is an API built using the Spring Boot framework, d
 ## Project Directory Structure
 
 .
-├── Application
-│   ├── pom.xml
-│   └── src
-│       └── main
-│           ├── java
-│           │   └── com
-│           │       └── product
-│           │           ├── BoxApplication.java
-│           │           ├── CorsOriginConfig.java
-│           │           ├── ServletInitializer.java
-│           │           └── SwaggerConfig.java
-│           └── resources
-│               └── application.properties
-├── Controller
-│   ├── pom.xml
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── product
-│                       ├── BrandController.java
-│                       ├── CategoryController.java
-│                       ├── OrderController.java
-│                       ├── OrderDetailsController.java
-│                       ├── ProductController.java
-│                       ├── StockController.java
-│                       └── UserController.java
-├── Model
-│   ├── pom.xml
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── product
-│                       ├── Brand.java
-│                       ├── Category.java
-│                       ├── OrderDetails.java
-│                       ├── OrderEntity.java
-│                       ├── Product.java
-│                       ├── Stock.java
-│                       └── UserDetails.java
-├── pom.xml
-├── README.md
-├── Repository
-│   ├── pom.xml
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── product
-│                       ├── BrandRepository.java
-│                       ├── CategoryRepository.java
-│                       ├── OrderDetailsRepository.java
-│                       ├── OrderRepository.java
-│                       ├── ProductRepository.java
-│                       ├── StockRepository.java
-│                       └── UserRepository.java
-└── Service
-├── pom.xml
-└── src
-└── main
-└── java
-└── com
-└── product
-├── BrandService.java
-├── CategoryService.java
-├── OrderDetailsService.java
-├── OrderService.java
-├── ProductService.java
-├── ServiceException.java
-├── StockService.java
-└── UserService.java
-
-
+- **Application**
+    - pom.xml
+    - src
+        - main
+            - java
+                - com
+                    - product
+                        - BoxApplication.java
+                        - CorsOriginConfig.java
+                        - ServletInitializer.java
+                        - SwaggerConfig.java
+            - resources
+                - application.properties
+- **Controller**
+    - pom.xml
+    - src
+        - main
+            - java
+                - com
+                    - product
+                        - BrandController.java
+                        - CategoryController.java
+                        - OrderController.java
+                        - OrderDetailsController.java
+                        - ProductController.java
+                        - StockController.java
+                        - UserController.java
+- **Model**
+    - pom.xml
+    - src
+        - main
+            - java
+                - com
+                    - product
+                        - Brand.java
+                        - Category.java
+                        - OrderDetails.java
+                        - OrderEntity.java
+                        - Product.java
+                        - Stock.java
+                        - UserDetails.java
+- pom.xml
+- README.md
+- **Repository**
+    - pom.xml
+    - src
+        - main
+            - java
+                - com
+                    - product
+                        - BrandRepository.java
+                        - CategoryRepository.java
+                        - OrderDetailsRepository.java
+                        - OrderRepository.java
+                        - ProductRepository.java
+                        - StockRepository.java
+                        - UserRepository.java
+- **Service**
+    - pom.xml
+    - src
+        - main
+            - java
+                - com
+                    - product
+                        - BrandService.java
+                        - CategoryService.java
+                        - OrderDetailsService.java
+                        - OrderService.java
+                        - ProductService.java
+                        - ServiceException.java
+                        - StockService.java
+                        - UserService.java
 
 
 ## Setup Instructions
